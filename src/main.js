@@ -44,7 +44,7 @@ router.beforeEach(async (to, from, next) => {
   next()
 })
 console.log('测试callback脚本是否执行')
-// 实例化vue 并且让外部组件 以及 vuex调用
+// 实例化vue 并且让外部组件 以及 vuex调用1
 const vue = new Vue({
   router,
   store,
